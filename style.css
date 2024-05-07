@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.topnav{
+    color: white;
+    background-size: cover;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 1%;
+}
+.cc{
+    font-size: large;
+    justify-content: center;
+    padding-left: 750px;
+}
+.cc{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.home:hover::before {
+    width: 100%;
+    visibility: visible;
+}
+.home{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.home::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 51.75%;
+    width: 3%;
+    height: 4px;
+    background-color:rgb(238, 202, 0);
+}
+
+.home:hover, .home.active{
+    color: black;
+}
+.ab{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.ab:hover, .ab.active{
+    color: black;
+}
+.ser{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.ser:hover, .ser.active{
+    color: black;
+}
+.bl{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.bl:hover, .bl.active{
+    color: black;
+}
+.cu{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.cu:hover, .cu.active{
+    color: black;
+}
+.fa{
+    display: flex;
+    position: absolute;
+    color: aliceblue;
+    left: 85%;
+    cursor: pointer;
+}
+
+header{
+    height: 450px;
+    background-color: rgba(2, 49, 33, 0.699);
+}
+header::after {
+    display: flex;
+    content: "";
+    position: absolute;
+    top: 1em;
+    right: -2em;
+    width: 750px;
+    height: 500px;
+    background-image: url(ressources/cvert.png);
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 9%;
+    right: 13%;
+    width: 17%;
+    height: 25%;
+    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.568) 4px,rgba(2, 49, 33, 0.010) 1px);
+    background-size: 38px 39px;
+}
+.ph{
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    color: rgb(255, 255, 255);
+    top: 5em;
+}
+.but{
+    display: flex;
+    position: relative;
+    left: 100px;
+    top: 15em;
+}
+
+.sh{
+    background-color: rgb(238, 202, 0);
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.ex{
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white; 
+    cursor: pointer;
+    width: 10%;
+    border-radius: 20px;
+    margin-left: 40px;
+    background: none;
+}
+
+.sect{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 55%;
+    width: 80%;
+    top: 35em;
+}
+.cards{
+    border:none;
+    text-align: center;
+    width: 75em;
+    border-radius: 10px;
+}
+.cards::before{
+    content: "";
+    position: absolute;
+    top: 15%;
+    right: 51%;
+    width: 15%;
+    height: 60%;
+    background: transparent;
+    border: 2px solid grey;
+    border-top: none;
+    border-radius: 20px;
+}
+.cardt{
+    text-align: center;
+    width: 75em;
+}
+.cardt i{
+    display: flex;
+    position: absolute;
+    left: 32.5em;
+    cursor: pointer;
+}
+.cardy{
+    border:none;
+    text-align: center;
+    width: 75em;
+}
+.cardn{
+    border:none;
+    text-align: center;
+    width: 75em;
+}
+
+.rows{
+    display: flex;
+    position: relative;
+    top: 45em;
+    padding-left: 90px;
+    border: none;
+}
+
+.why{
+    display: flexbox;
+    position: relative;
+    top: 40em;
+    padding-left: 200px;
+    border: none;
+
+}
+.col{
+    position: absolute;
+}
+.cols{
+    position: absolute;
+    top: 70px;
+}
+.caro{
+    position: absolute;
+    margin-left: 370px;
+}
+.care{
+    position: absolute;
+    margin-left: 360px;
+}
+.card-bo{
+    font-size: 15px;
+}
+.im{
+    display: flex;
+    position: absolute;
+    left: 950px;
+    height: 450px;
+}
+.why::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 25%;
+    width: 25%;
+    height: 450%;
+    background: radial-gradient(circle at 50% 50%, yellow 6px, white 3px);
+    background-size: 45px 44px;
+}
+.im::before {
+    content: "";
+    position: absolute;
+    top: 35em;
+    right: 80em;
+    width: 390px;
+    height: 350px;
+    background: radial-gradient(circle at 50% 50%, rgb(2, 153, 82) 5px, white 3px);
+    background-size: 45px 44px;
+
+}
+.ekns::before {
+    content: "";
+    position: absolute;
+    top: 15em;
+    right: 49em;
+    width: 350px;
+    height: 290px;
+    background-image: url(ressources/Tabouret.jpeg);
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    background-size: 258px 257px;
+
+}
+
+.sec{
+    position: relative;
+    display: flex;
+    top: 89em;
+    left: 14.5em;
+}
+
+.salle{
+    display: flex;
+    position:absolute;
+    left: 520px;
+}
+body{
+    overflow: visible;
+}
+
+.west{
+    display: flex;
+    position: absolute;
+    font-size: 12px;
+    width: auto;
+}
+.we{
+    display: flexbox;
+    position: relative;
+    top: 0em;
+    left: 60em;
+    border: none;
+}
+
+.colo{
+    display: flex;
+    position: relative;
+    top: 13em;
+    left: 15em;
+    border: none;
+    width: 30%;
+}
+
+.b{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    background-color: black; /* Couleur de fond rouge */
+    padding: 5px 10px; /* Espacement intérieur */
+    border: none; /* Pas de bordure */
+    cursor: pointer; /* Change le curseur en main lors du survol */
+    width: 10%;
+    height: 27%;
+    border-radius: 15px;
+    top: 28em;
+    left: 70%;
+}
+.colo i{
+    display: flex;
+    position: absolute;
+    right: 101%;
+}
+
+.cardi{
+    display: flex;
+    position: absolute;
+    right: 25%;
+}
+.cardo{
+    display: flex;
+    position: absolute;
+    right: 25%;
+}
+.foot{
+    border: none;
+    display: flex;
+    position: absolute;
+    top: 165em;
+    width: 82em;
+    height: 13em;
+    right: 2em;
+
+}
+
+.buu{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    background-color: black; /* Couleur de fond rouge */
+    padding: 5px 5px; /* Espacement intérieur */
+    border: none; /* Pas de bordure */
+    cursor: pointer; /* Change le curseur en main lors du survol */
+    width: 10%;
+    height: 8%;
+    border-radius: 15px;
+    left: 160px;
+    top: 20em;
+}
+.card1{
+    display: flex;
+    position: absolute;
+    border: none;
+    font-size: 15px;
+    right: 55em;
+    bottom: 5em;
+}
+.card2{
+    display: flex;
+    position: absolute;
+    width: 29em;
+    border: none;
+    left: 18em;
+    bottom: 5em;
+}
+.card3{
+    display: flex;
+    position: relative;
+    width: 20em;
+    border: none;
+    font-size: 15px;
+    left: 52em;
+    bottom: 5em;
+}
+.rowu{
+    display: flex;
+    position: relative;
+    border: none;
+    width: 45em;
+}
+.card-body1{
+    width: 20em;
+    font-size: 15px;
+    display: flexbox;
+    position: absolute;
+    left: 12em;
+    bottom:0em;
+    text-overflow: ellipsis;
+
+}
+.card-body2{
+    display: flexbox;
+    position: absolute;
+    left: 10em;
+    bottom:0em;
+    text-overflow: ellipsis;
+
+}
+.card-body3{
+    width: 20em;
+    font-size: 15px;
+    display: flexbox;
+    position: absolute;
+    left: 15em;
+    bottom:0em;
+    text-overflow: ellipsis;
+}
+
+body{
+    overflow-x: hidden;
+}
